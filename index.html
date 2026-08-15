@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prayag Bhosale | Data Analyst & AI/ML Engineer</title>
+  <meta name="description" content="Portfolio of Prayag Bhosale — Data Analyst, AI & ML Engineer specializing in financial analytics, capital budgeting, feasibility modeling, and machine learning.">
+  <meta name="keywords" content="Prayag Bhosale, Data Analyst, AI Engineer, ML Engineer, Finance, Portfolio">
+  <meta name="author" content="Prayag Bhosale">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ====== PRELOADER ====== -->
+  <div id="preloader">
+    <div class="loader">
+      <div class="loader-ring"></div>
+      <span class="loader-text">PB</span>
+    </div>
+  </div>
+
+  <!-- ====== CUSTOM CURSOR ====== -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>PB<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#contact" class="nav-cta">Hire Me</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====== HERO SECTION ====== -->
+  <section id="home" class="hero-section">
+    <canvas id="particleCanvas" class="hero-particles"></canvas>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">
+          <span class="greeting-line"></span>
+          Hello, I'm
+        </p>
+        <h1 class="hero-name">
+          PRAYAG<br><span class="name-accent">BHOSALE</span>
+        </h1>
+        <div class="hero-title-wrapper">
+          <span class="hero-title-prefix">I'm a </span>
+          <span class="typing-text" id="typingText"></span>
+          <span class="typing-cursor">|</span>
+        </div>
+        <p class="hero-description">
+          Transforming complex financial & operational datasets into actionable insights,
+          robust feasibility models, and high-impact capital allocation decisions.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <span>View My Work</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <span>Get In Touch</span>
+            <i class="fas fa-paper-plane"></i>
+          </a>
+        </div>
+        <div class="hero-stats-row">
+          <div class="hero-stat">
+            <span class="hero-stat-number" data-target="2">0</span><span class="hero-stat-plus">+</span>
+            <span class="hero-stat-label">Years Exp.</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-number" data-target="5">0</span><span class="hero-stat-plus">+</span>
+            <span class="hero-stat-label">Certifications</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-number" data-target="3">0</span><span class="hero-stat-plus">+</span>
+            <span class="hero-stat-label">Key Projects</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="hero-image-ring"></div>
+        <div class="hero-image-ring hero-image-ring-2"></div>
+        <div class="hero-image-container">
+          <img src="https://api.dicebear.com/7.x/initials/svg?seed=PB&backgroundColor=0c0c1a&textColor=00d4ff&fontSize=42&fontWeight=700" alt="Prayag Bhosale - Data Analyst & AI/ML Engineer" class="hero-image" id="profileImage">
+          <div class="hero-image-fallback" id="profileFallback">PB</div>
+        </div>
+        <div class="hero-floating-badge badge-1">
+          <i class="fas fa-chart-line"></i> Finance
+        </div>
+        <div class="hero-floating-badge badge-2">
+          <i class="fas fa-brain"></i> AI/ML
+        </div>
+        <div class="hero-floating-badge badge-3">
+          <i class="fas fa-database"></i> Data
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT SECTION ====== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">01.</span> About Me
+      </h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="about-intro">
+            I am a <span class="text-gradient">Financial and Data Analyst</span> with an MBA in Finance
+            and a strong technical foundation. My passion lies at the intersection of
+            <span class="text-highlight">data, strategy, and finance-operations</span>.
+          </p>
+          <p>
+            I specialize in transforming complex operational datasets into actionable insights,
+            robust feasibility models, and high-impact capital allocation decisions.
+          </p>
+          <p>
+            Professionally, I bring proven experience in <strong>capital budgeting</strong>,
+            <strong>cash flow forecasting</strong>, and <strong>feasibility modeling</strong> — such as
+            identifying critical operational constraints to prevent major capital misallocations
+            during my time at Pratyusha Developers.
+          </p>
+          <div class="about-cta">
+            <a href="#resume-section" class="btn btn-primary btn-sm">
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+        <div class="about-cards reveal">
+          <div class="about-card">
+            <div class="about-card-icon"><i class="fas fa-chart-pie"></i></div>
+            <h3>Financial Analytics</h3>
+            <p>Capital budgeting, IRR analysis, cash flow forecasting & feasibility modeling</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon"><i class="fas fa-robot"></i></div>
+            <h3>AI & Machine Learning</h3>
+            <p>Predictive models, risk scoring, and data-driven decision engines</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon"><i class="fas fa-shield-alt"></i></div>
+            <h3>Risk & Compliance</h3>
+            <p>Regulatory compliance, risk detection, and statutory frameworks</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon"><i class="fas fa-presentation-screen"></i></div>
+            <h3>Executive Reporting</h3>
+            <p>Boardroom-ready reports, investor pitch decks & executive risk briefs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== EDUCATION SECTION ====== -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">02.</span> Education
+      </h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">2022 — 2025</div>
+            <h3 class="timeline-title">MBA in Finance</h3>
+            <p class="timeline-institution">
+              <i class="fas fa-university"></i> JIMS Tathawade, Pune
+            </p>
+            <p class="timeline-desc">
+              Specialized in financial management, strategic analysis, and data-driven decision making.
+              Developed expertise in capital markets, corporate finance, and quantitative methods.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag">Corporate Finance</span>
+              <span class="tag">Strategic Management</span>
+              <span class="tag">Quantitative Methods</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">2019 — 2022</div>
+            <h3 class="timeline-title">BBA in Finance</h3>
+            <p class="timeline-institution">
+              <i class="fas fa-university"></i> Indrayani Arts & Commerce College
+            </p>
+            <p class="timeline-desc">
+              Built foundational knowledge in business administration, financial accounting,
+              economics, and organizational behavior.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag">Business Administration</span>
+              <span class="tag">Financial Accounting</span>
+              <span class="tag">Economics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== EXPERIENCE SECTION ====== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">03.</span> Work Experience
+      </h2>
+      <div class="experience-card reveal">
+        <div class="exp-header">
+          <div class="exp-info">
+            <h3 class="exp-title">Research Assistant</h3>
+            <p class="exp-company">
+              <i class="fas fa-building"></i> Pratyusha Developers
+            </p>
+          </div>
+          <div class="exp-duration">
+            <span class="exp-badge">Feb 2024 — Jul 2026</span>
+          </div>
+        </div>
+        <ul class="exp-responsibilities">
+          <li>
+            <i class="fas fa-caret-right"></i>
+            Built and maintained Excel-based financial models forecasting capital requirements,
+            operating cash flows, and IRR across large-scale real estate development projects.
+          </li>
+          <li>
+            <i class="fas fa-caret-right"></i>
+            Conducted end-to-end feasibility studies covering financial viability, regulatory
+            compliance (NOC and environmental clearances), and stakeholder risk — flagging
+            deal-breakers ahead of capital deployment.
+          </li>
+          <li>
+            <i class="fas fa-caret-right"></i>
+            Converted large, unstructured operational datasets into boardroom-ready reports,
+            executive risk briefs, and investor-facing pitch decks.
+          </li>
+          <li>
+            <i class="fas fa-caret-right"></i>
+            Tracked regulatory and taxation frameworks to keep capital allocation decisions
+            statutorily compliant; performed cost-benefit analysis to identify data anomalies
+            and prevent budget overruns.
+          </li>
+          <li>
+            <i class="fas fa-caret-right"></i>
+            Served as cross-functional liaison between technical, operational, and senior
+            stakeholder teams to keep project configurations within organizational risk thresholds.
+          </li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">Financial Modeling</span>
+          <span class="tag">Feasibility Studies</span>
+          <span class="tag">Risk Analysis</span>
+          <span class="tag">Capital Budgeting</span>
+          <span class="tag">Regulatory Compliance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SKILLS SECTION ====== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">04.</span> Skills & Technologies
+      </h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <i class="fas fa-code"></i>
+            <h3>Technical Skills</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Python (Pandas)</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>TensorFlow</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Advanced SQL</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Advanced Excel & AI</span>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <i class="fas fa-chart-bar"></i>
+            <h3>Data Visualization</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Power BI</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Tableau</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <i class="fas fa-users-cog"></i>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="soft-skills-tags">
+            <span class="soft-tag"><i class="fas fa-gavel"></i> Regulatory & Compliance Acumen</span>
+            <span class="soft-tag"><i class="fas fa-lightbulb"></i> Problem-Solving & Critical Thinking</span>
+            <span class="soft-tag"><i class="fas fa-comments"></i> Executive Communication</span>
+            <span class="soft-tag"><i class="fas fa-handshake"></i> Stakeholder Management & Client Relations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CERTIFICATIONS SECTION ====== -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">05.</span> Certifications
+      </h2>
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+          <div class="cert-badge">2026</div>
+          <h3>Data Analysis & Forensic Technology</h3>
+          <p class="cert-issuer"><i class="fas fa-award"></i> Deloitte</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fab fa-aws"></i></div>
+          <div class="cert-badge">2026</div>
+          <h3>AWS Certified ML Specialty</h3>
+          <p class="cert-issuer"><i class="fas fa-award"></i> Amazon Web Services</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-flask"></i></div>
+          <div class="cert-badge">2026</div>
+          <h3>Data Science Job Simulation</h3>
+          <p class="cert-issuer"><i class="fas fa-award"></i> Commonwealth Bank</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-coins"></i></div>
+          <div class="cert-badge">2026</div>
+          <h3>Controllers Job Simulation</h3>
+          <p class="cert-issuer"><i class="fas fa-award"></i> Goldman Sachs</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-microchip"></i></div>
+          <div class="cert-badge">2026</div>
+          <h3>GenAI Powered Data Analytics</h3>
+          <p class="cert-issuer"><i class="fas fa-award"></i> Tata Group</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ACHIEVEMENTS SECTION ====== -->
+  <section id="achievements" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">06.</span> Achievements & Awards
+      </h2>
+      <div class="achievement-grid">
+        <div class="achievement-card reveal">
+          <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Avinya Hackathon</h3>
+          <p>Competed and showcased innovative data-driven solutions at the Avinya National Hackathon.</p>
+          <div class="ach-glow"></div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-icon"><i class="fas fa-medal"></i></div>
+          <h3>Smart India Hackathon</h3>
+          <p>Participated in India's largest hackathon, developing real-world problem-solving applications using AI & data analytics.</p>
+          <div class="ach-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PROJECTS SECTION ====== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">07.</span> Featured Projects
+      </h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-number">01</div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-building-columns"></i></div>
+            <div class="project-links">
+              <a href="#" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Real Estate Capital Expansion Feasibility Study</h3>
+          <p class="project-desc">
+            Built a feasibility model that catches a ₹2 Cr capital mistake before it happens —
+            the same type of model used at Pratyusha Developers to flag a real infrastructure constraint.
+          </p>
+          <div class="project-tech">
+            <span>Excel</span>
+            <span>Power BI</span>
+            <span>Python</span>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-number">02</div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+            <div class="project-links">
+              <a href="#" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">FP&A Dashboard</h3>
+          <p class="project-desc">
+            A rolling FP&A dashboard that tracks capital deployment, opex, and cash flow variance
+            across multiple projects in real time. Delivered as a live presentation to stakeholders.
+          </p>
+          <div class="project-tech">
+            <span>Power BI</span>
+            <span>Live Presentation</span>
+            <span>Excel</span>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+          <div class="project-number">03</div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-shield-halved"></i></div>
+            <div class="project-links">
+              <a href="#" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Credit Risk / Loan Default Early-Warning Model</h3>
+          <p class="project-desc">
+            A Python-based model that scores loan applicants and flags early default risk —
+            the exact use case driving hiring at Indian fintech lenders right now.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>scikit-learn</span>
+            <span>Power BI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIALS SECTION ====== -->
+  <section id="testimonials" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">08.</span> Testimonials
+      </h2>
+      <div class="testimonials-container reveal">
+        <div class="testimonial-card">
+          <div class="testimonial-quote-icon"><i class="fas fa-quote-left"></i></div>
+          <blockquote class="testimonial-text">
+            "He has a rare balance of financial modeling rigor and proactive risk detection.
+            You can hand him an unstructured, high-stakes project and trust that any regulatory
+            or operational deal-breakers will be caught long before capital hits the table."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <div class="testimonial-info">
+              <h4>Senior Stakeholder</h4>
+              <p>Pratyusha Developers</p>
+            </div>
+          </div>
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== BLOG SECTION ====== -->
+  <section id="blog" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">09.</span> Blog & Insights
+      </h2>
+      <div class="blog-grid">
+        <article class="blog-card reveal">
+          <div class="blog-image">
+            <div class="blog-image-placeholder"><i class="fas fa-chart-area"></i></div>
+            <div class="blog-category">Finance</div>
+          </div>
+          <div class="blog-content">
+            <span class="blog-date"><i class="far fa-calendar"></i> Coming Soon</span>
+            <h3>How Capital Feasibility Models Prevent Million-Dollar Mistakes</h3>
+            <p>An in-depth look at how data-driven feasibility studies can catch costly infrastructure constraints...</p>
+            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="blog-card reveal">
+          <div class="blog-image">
+            <div class="blog-image-placeholder"><i class="fas fa-brain"></i></div>
+            <div class="blog-category">AI/ML</div>
+          </div>
+          <div class="blog-content">
+            <span class="blog-date"><i class="far fa-calendar"></i> Coming Soon</span>
+            <h3>Building Credit Risk Models for Indian Fintech Lenders</h3>
+            <p>A practical guide to building early-warning systems for loan default prediction using Python...</p>
+            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="blog-card reveal">
+          <div class="blog-image">
+            <div class="blog-image-placeholder"><i class="fas fa-database"></i></div>
+            <div class="blog-category">Data Analytics</div>
+          </div>
+          <div class="blog-content">
+            <span class="blog-date"><i class="far fa-calendar"></i> Coming Soon</span>
+            <h3>From Unstructured Data to Boardroom-Ready Insights</h3>
+            <p>Strategies for transforming messy operational datasets into compelling executive narratives...</p>
+            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== RESUME SECTION ====== -->
+  <section id="resume-section" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">10.</span> My Resume
+      </h2>
+      <div class="resume-upload-container reveal">
+        <div class="resume-card">
+          <div class="resume-icon"><i class="fas fa-file-pdf"></i></div>
+          <h3>Download My Resume</h3>
+          <p>Get a detailed overview of my qualifications, experience, and skills.</p>
+          <div class="resume-drop-zone" id="resumeDropZone">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <p>Drag & drop your resume here or <label for="resumeUpload" class="upload-label">browse files</label></p>
+            <input type="file" id="resumeUpload" accept=".pdf,.doc,.docx,.txt,.rtf" hidden>
+            <span class="file-types">Supports: PDF, DOC, DOCX, TXT, RTF</span>
+          </div>
+          <div class="resume-file-info" id="resumeFileInfo" style="display:none;">
+            <i class="fas fa-file-check"></i>
+            <span id="resumeFileName"></span>
+            <button class="remove-file" id="removeFile"><i class="fas fa-times"></i></button>
+          </div>
+          <a href="#" class="btn btn-primary btn-download" id="downloadResume" style="display:none;">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT SECTION ====== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">11.</span> Get In Touch
+      </h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Let's Work Together</h3>
+          <p>Have a project in mind or want to discuss how data-driven insights can transform your business?
+             I'd love to hear from you.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:bhosaleprayag111@gmail.com">bhosaleprayag111@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fab fa-linkedin"></i></div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/prayag-bhosale-55b6642" target="_blank" rel="noopener noreferrer">prayag-bhosale-55b6642</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/Prayag2810" target="_blank" rel="noopener noreferrer">Prayag2810</a>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="mailto:bhosaleprayag111@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/prayag-bhosale-55b6642" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Prayag2810" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="contactName" name="name" required placeholder=" ">
+            <label for="contactName">Your Name</label>
+            <span class="form-line"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" id="contactEmail" name="email" required placeholder=" ">
+            <label for="contactEmail">Your Email</label>
+            <span class="form-line"></span>
+          </div>
+          <div class="form-group">
+            <input type="text" id="contactSubject" name="subject" required placeholder=" ">
+            <label for="contactSubject">Subject</label>
+            <span class="form-line"></span>
+          </div>
+          <div class="form-group">
+            <textarea id="contactMessage" name="message" rows="5" required placeholder=" "></textarea>
+            <label for="contactMessage">Your Message</label>
+            <span class="form-line"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="logo-bracket">&lt;</span>PB<span class="logo-bracket">/&gt;</span>
+        </div>
+        <p class="footer-text">Designed & Built by Prayag Bhosale</p>
+        <div class="footer-socials">
+          <a href="mailto:bhosaleprayag111@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://linkedin.com/in/prayag-bhosale-55b6642" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Prayag2810" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Prayag Bhosale. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== BACK TO TOP ====== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
