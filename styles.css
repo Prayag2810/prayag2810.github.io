@@ -919,6 +919,29 @@ ul { list-style: none; }
 }
 .cert-issuer i { color: var(--accent-gold); margin-right: 4px; }
 
+.cert-view-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  padding: 6px 16px;
+  background: rgba(0, 212, 255, 0.08);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  transition: var(--transition);
+  text-decoration: none;
+}
+.cert-view-btn:hover {
+  background: rgba(0, 212, 255, 0.15);
+  border-color: var(--accent-cyan);
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+  transform: translateY(-1px);
+}
+
 /* ====== ACHIEVEMENTS SECTION ====== */
 .achievement-grid {
   display: grid;
